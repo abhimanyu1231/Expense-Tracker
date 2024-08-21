@@ -1,0 +1,23 @@
+.income-container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .income-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .income-table th,
+  .income-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  

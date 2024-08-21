@@ -1,0 +1,35 @@
+<nz-sider nzWidth="280px">
+    <div class="sidebar" style="display: flex; flex-direction: column; height: 100vh;">
+      <div style="flex-grow: 1;">
+        <div class="logo">
+          <img src="assets/images.png" alt="avatar" class="avatar">
+          <div class="user-info">
+            <strong>Expense Tracker</strong>
+          </div>
+        </div>
+        <ul nz-menu nzMode="inline" class="menu">
+          <li nz-menu-item routerLink="dashboard" routerLinkActive="active">
+            <span nz-icon nzType="dashboard"></span>
+            <span>Dashboard</span>
+          </li>
+          <li nz-menu-item routerLink="income" routerLinkActive="active">
+            <span nz-icon nzType="fund"></span>
+            <span>Income</span>
+          </li>
+          <li nz-menu-item routerLink="expense" routerLinkActive="active">
+            <span nz-icon nzType="fall"></span>
+            <span>Expense</span>
+          </li>
+         
+        </ul>
+      </div>
+      <nz-footer>
+        <footer class="footer">
+          <span>Copyright © 2023</span>
+          <a href="#">Privacy Policy</a>
+        </footer>
+      </nz-footer>
+    </div>
+  </nz-sider>
+  
+  

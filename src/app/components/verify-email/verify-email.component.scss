@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .verification-card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .verification-header {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7a39e0;
+  }
+  
+  .text-muted {
+    font-size: 1em;
+    color: #6f6f6f;
+    text-align: center;
+  }
+  
